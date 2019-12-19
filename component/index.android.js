@@ -69,8 +69,8 @@ NotificationsComponent.prototype.checkPermissions = function(callback) {
 	RNPushNotification.checkPermissions().then(alert => callback({ alert }));
 };
 
-NotificationsComponent.prototype.navigateToAndroidSettings = function() {
-	RNPushNotification.navigateToAndroidSettings();
+NotificationsComponent.prototype.navigateToSettings = function() {
+	RNPushNotification.navigateToSettings();
 };
 
 NotificationsComponent.prototype.addEventListener = function(type, handler) {
@@ -114,15 +114,15 @@ NotificationsComponent.prototype.removeEventListener = function(type, handler) {
 	}
 	listener.remove();
 	_notifHandlers.delete(type);
-}
+};
 
 NotificationsComponent.prototype.registerNotificationActions = function(details) {
 	RNPushNotification.registerNotificationActions(details);
-}
+};
 
 NotificationsComponent.prototype.clearAllNotifications = function() {
 	RNPushNotification.clearAllNotifications()
-}
+};
 
 NotificationsComponent.prototype.removeAllDeliveredNotifications = function() {
   RNPushNotification.removeAllDeliveredNotifications();
