@@ -3,6 +3,7 @@
   "version": "3.1.9",
   "description": "React Native Local and Remote Notifications",
   "main": "index",
+  "homepage": "https://github.com/Taylor123/react-native-push-notification#readme",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -23,9 +24,7 @@
     "type": "git",
     "url": "git+ssh://git@github.com:zo0r/react-native-push-notification.git"
   },
-  "dependencies": {
-    "@react-native-community/push-notification-ios": "Taylor123/react-native-push-notification-ios#custom-release"
-  },
+  "dependencies": {},
   "peerDependencies": {
     "react-native": ">=0.33"
   },

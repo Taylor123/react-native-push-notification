@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.author         = package['author']
   s.homepage       = package['homepage']
   
-  s.source       = { :git => "https://github.com/Taylor123/react-native-push-notification-ios#custom-release" }
+  s.source       = { :git => "https://github.com/Taylor123/react-native-push-notification#test" }
   s.source_files = "ios/*.{h,m}"
 
   s.platform     = :ios, "9.0"
